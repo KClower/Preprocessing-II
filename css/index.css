@@ -174,14 +174,18 @@ img {
   }
 }
 .link-container {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.link-container .link-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px dashed #C0C0C0;
   padding: 0 65px;
 }
 @media screen and (max-width:500px) {
-  .link-container {
+  .link-container .link-wrapper {
     display: block;
     text-align: center;
     padding: 0;
